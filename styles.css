@@ -42,6 +42,26 @@ body {
     margin-left: 20px;
   }
   
+  .download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #203a43;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .download-btn:hover {
+    background-color: #203a43;
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  
   footer {
     text-align: center;
     padding: 15px;
